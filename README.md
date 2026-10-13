@@ -4,13 +4,13 @@ Zadanie z modułu Angular. Repozytorium zawiera kod startowy aplikacji Moonbase 
 
 ## Zadanie
 
-Przenieś dane misji z komponentu do serwisu.
+Utwórz serwis, który przechowuje dane misji i udostępnia je komponentowi `Missions`.
 
 Student powinien:
 
 - wygenerować `MissionsService` przy pomocy Angular CLI,
 - utworzyć model `Mission` oraz wymagane typy,
-- przenieść statyczną listę misji do prywatnego sygnału w serwisie,
+- utworzyć w serwisie prywatny sygnał ze statyczną listą misji (dane weź z pliku `mock-api/db.json`),
 - udostępnić dane jako sygnał tylko do odczytu przy pomocy `asReadonly()`,
 - wstrzyknąć serwis do komponentu `Missions` przy pomocy `inject()`,
 - wyświetlić listę misji w szablonie wykorzystując `@for`.
